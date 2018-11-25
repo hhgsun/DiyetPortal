@@ -1,10 +1,10 @@
 <template>
-   <div id="home" class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+   <div id="home" class="cover-container d-flex w-100 h-100 pt-5 mx-auto flex-column">
 
          <!-- Header Component -->
          <header-comp></header-comp>
 
-         <main role="main" class="inner cover">
+         <main class="main">
             <h1 class="cover-heading">Diyet Portal'a Hoşgeldiniz.</h1>
             <p class="lead">Amacımız tüm diyetisyenleri ve diyetisten ihtiyacı olanları bir araya getirmek, ziyaretçilerimize en doğru diyet danışmanlığı ve hizmeti sunmayı amaçlıyor bu doğrultuda diyetisyenleri veritabanımıza kayıt ediyoruz</p>
             <p class="lead">
@@ -32,11 +32,9 @@ export default {
 </script>
 
 <style scoped>
-.cover-container {
-  max-width: 42em;
+.main {
   text-align: center;
 }
-
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {

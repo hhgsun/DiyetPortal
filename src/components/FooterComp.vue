@@ -20,5 +20,6 @@ a:hover {
 }
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+  text-align: center;
 }
 </style>

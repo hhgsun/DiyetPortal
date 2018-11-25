@@ -36,6 +36,11 @@ body {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  padding-top: 4.5rem;
+}
+
+.cover-container {
+  max-width: 42em;
 }
 
 * {
